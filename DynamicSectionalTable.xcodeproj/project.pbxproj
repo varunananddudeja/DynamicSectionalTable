@@ -12,6 +12,14 @@
 		B50C8E681F3AD8B700F6C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E661F3AD8B700F6C5E7 /* Main.storyboard */; };
 		B50C8E6A1F3AD8B700F6C5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E691F3AD8B700F6C5E7 /* Assets.xcassets */; };
 		B50C8E6D1F3AD8B700F6C5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E6B1F3AD8B700F6C5E7 /* LaunchScreen.storyboard */; };
+		B50C8E751F3AD8F600F6C5E7 /* DynamicSectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C8E741F3AD8F600F6C5E7 /* DynamicSectionHandler.swift */; };
+		B50C8E771F3AD99000F6C5E7 /* DynamicSectionBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C8E761F3AD99000F6C5E7 /* DynamicSectionBase.swift */; };
+		B50C8E7F1F3ADC2700F6C5E7 /* EducationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C8E7D1F3ADC2700F6C5E7 /* EducationCell.swift */; };
+		B50C8E801F3ADC2700F6C5E7 /* EducationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E7E1F3ADC2700F6C5E7 /* EducationCell.xib */; };
+		B50C8E871F3ADD3A00F6C5E7 /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C8E851F3ADD3A00F6C5E7 /* WorkCell.swift */; };
+		B50C8E881F3ADD3A00F6C5E7 /* WorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50C8E861F3ADD3A00F6C5E7 /* WorkCell.xib */; };
+		B50C8E8B1F3ADE5600F6C5E7 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C8E8A1F3ADE5600F6C5E7 /* Education.swift */; };
+		B50C8E8D1F3ADE6000F6C5E7 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C8E8C1F3ADE6000F6C5E7 /* Work.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		B50C8E691F3AD8B700F6C5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50C8E6C1F3AD8B700F6C5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B50C8E6E1F3AD8B700F6C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50C8E741F3AD8F600F6C5E7 /* DynamicSectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicSectionHandler.swift; sourceTree = "<group>"; };
+		B50C8E761F3AD99000F6C5E7 /* DynamicSectionBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicSectionBase.swift; sourceTree = "<group>"; };
+		B50C8E7D1F3ADC2700F6C5E7 /* EducationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationCell.swift; sourceTree = "<group>"; };
+		B50C8E7E1F3ADC2700F6C5E7 /* EducationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EducationCell.xib; sourceTree = "<group>"; };
+		B50C8E851F3ADD3A00F6C5E7 /* WorkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
+		B50C8E861F3ADD3A00F6C5E7 /* WorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkCell.xib; sourceTree = "<group>"; };
+		B50C8E8A1F3ADE5600F6C5E7 /* Education.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		B50C8E8C1F3ADE6000F6C5E7 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,38 @@
 		B50C8E611F3AD8B700F6C5E7 /* DynamicSectionalTable */ = {
 			isa = PBXGroup;
 			children = (
+				B50C8E891F3ADE4A00F6C5E7 /* ViewModels */,
+				B50C8E7C1F3ADC1800F6C5E7 /* Cells */,
 				B50C8E621F3AD8B700F6C5E7 /* AppDelegate.swift */,
 				B50C8E641F3AD8B700F6C5E7 /* ViewController.swift */,
 				B50C8E661F3AD8B700F6C5E7 /* Main.storyboard */,
 				B50C8E691F3AD8B700F6C5E7 /* Assets.xcassets */,
 				B50C8E6B1F3AD8B700F6C5E7 /* LaunchScreen.storyboard */,
 				B50C8E6E1F3AD8B700F6C5E7 /* Info.plist */,
+				B50C8E741F3AD8F600F6C5E7 /* DynamicSectionHandler.swift */,
+				B50C8E761F3AD99000F6C5E7 /* DynamicSectionBase.swift */,
 			);
 			path = DynamicSectionalTable;
+			sourceTree = "<group>";
+		};
+		B50C8E7C1F3ADC1800F6C5E7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B50C8E7D1F3ADC2700F6C5E7 /* EducationCell.swift */,
+				B50C8E7E1F3ADC2700F6C5E7 /* EducationCell.xib */,
+				B50C8E851F3ADD3A00F6C5E7 /* WorkCell.swift */,
+				B50C8E861F3ADD3A00F6C5E7 /* WorkCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B50C8E891F3ADE4A00F6C5E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B50C8E8A1F3ADE5600F6C5E7 /* Education.swift */,
+				B50C8E8C1F3ADE6000F6C5E7 /* Work.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50C8E6D1F3AD8B700F6C5E7 /* LaunchScreen.storyboard in Resources */,
+				B50C8E881F3ADD3A00F6C5E7 /* WorkCell.xib in Resources */,
 				B50C8E6A1F3AD8B700F6C5E7 /* Assets.xcassets in Resources */,
+				B50C8E801F3ADC2700F6C5E7 /* EducationCell.xib in Resources */,
 				B50C8E681F3AD8B700F6C5E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50C8E8D1F3ADE6000F6C5E7 /* Work.swift in Sources */,
+				B50C8E8B1F3ADE5600F6C5E7 /* Education.swift in Sources */,
+				B50C8E771F3AD99000F6C5E7 /* DynamicSectionBase.swift in Sources */,
 				B50C8E651F3AD8B700F6C5E7 /* ViewController.swift in Sources */,
 				B50C8E631F3AD8B700F6C5E7 /* AppDelegate.swift in Sources */,
+				B50C8E7F1F3ADC2700F6C5E7 /* EducationCell.swift in Sources */,
+				B50C8E871F3ADD3A00F6C5E7 /* WorkCell.swift in Sources */,
+				B50C8E751F3AD8F600F6C5E7 /* DynamicSectionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
